@@ -1,0 +1,7 @@
+email= input("enter email id")
+valid = email.endswith("@google.com")
+if valid == True:
+ print("email is fine")
+
+else:
+  print("enter the email with google.com")

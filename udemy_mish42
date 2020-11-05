@@ -1,0 +1,14 @@
+def sumofdigit(str1):
+
+  sum_digit = 0
+  for x in str1:
+     if str1[x].isdigit() == True:
+       z = str1[x]
+       sum_digit = sum_digit(x)
+       print(sum_digit)
+       print(str1)
+     else:
+       print(str1)
+
+
+sumofdigit(str1 = input("enter the string"))

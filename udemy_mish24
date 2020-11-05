@@ -1,0 +1,9 @@
+n = int(input("enter the no"))
+x = -2
+for i in range(1,n+1):
+  x= x+3
+  print(x, end="")
+  if x %2==0:
+   print(-x)
+  else:
+   print(x, end="")

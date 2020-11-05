@@ -1,0 +1,4 @@
+s = input("enter the sentence")
+v = ["a","e","i","o","u"]
+v1 = s.find(v)
+print(v1)

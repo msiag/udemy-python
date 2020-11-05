@@ -1,0 +1,6 @@
+list=[]
+n = int(input("enter the input"))
+for i in range(n):
+ d = int(input("enter all the no"))
+ list.append(d)
+ print(sorted(list))

@@ -1,0 +1,10 @@
+list =[]
+nums= int(input("enter the no of students"))
+
+for i in range(nums):
+    ele =int(input("enter the no"))
+    list.append(ele)
+    print (nums)
+
+average_student = mean(list)
+print(average_student)

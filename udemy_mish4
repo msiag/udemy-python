@@ -1,0 +1,11 @@
+P = int(input("enter the principle"))
+R = int(input("enter the rate in %"))
+T = int(input("enter the time in years"))
+N = int(input("enter no of time"))
+
+S_I = (P*R*T)/100
+Amount = P * (pow((1 + R / 100), T))
+C_I = Amount - P
+
+print(S_I)
+print(C_I)

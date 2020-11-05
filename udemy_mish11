@@ -1,0 +1,7 @@
+list = []
+n = int(input("enter the no"))
+for i in range(n):
+ d = input("enter the elements")
+ list.append(d)
+print (list)
+print(max(list))

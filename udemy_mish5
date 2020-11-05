@@ -1,0 +1,14 @@
+list =[]
+no = int(input("enter the range"))
+n = int(input("enter the start no"))
+for i in range(no):
+  n = n+1
+  list.append(n)
+  print(list)
+
+
+no = int(input("enter the range"))
+n = int(input("enter the start no"))
+for i in range(no):
+    n = n+1
+    print(n, end ="")

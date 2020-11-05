@@ -1,0 +1,5 @@
+import time
+sec = 123455
+ty_res = time.gmtime(sec)
+res = time.strftime("%H:%M:%S",ty_res)
+print(res)

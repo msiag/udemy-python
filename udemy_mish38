@@ -1,0 +1,10 @@
+s =input("enter the string")
+r =s[::-1]
+print(r)
+print(s)
+
+if s == r:
+
+  print("its palindrome")
+else:
+  print("its not")

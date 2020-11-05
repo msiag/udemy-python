@@ -1,0 +1,6 @@
+n = int(input("enter the no"))
+if n > 0:
+ if (n*n)%2==0 or (n*n)%3==0:
+   print("not a prime no")
+ else:
+   print("its prime")

@@ -1,0 +1,17 @@
+
+
+
+number = int(input("enter the no"))
+count = len(str(number))
+
+sum= 0
+temp = number
+while temp >0:
+ digit = temp%10
+ sum+= digit **order
+ temp//=10
+
+if num == sum:
+ print("its a armstrong no")
+else:
+ print("its not")

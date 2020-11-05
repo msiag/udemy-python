@@ -1,0 +1,10 @@
+no = int(input("enter"))
+
+list2 =[]
+for i in range(no):
+ a = int(input("enter the no"))
+ list2.append(a)
+ print (list2)
+ sum1 = print (sum(list2))
+ list1 = list(set(list2))
+ print (sum(list1))

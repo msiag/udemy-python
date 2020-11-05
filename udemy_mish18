@@ -1,0 +1,5 @@
+no = int(input("enter the no"))
+list = []
+for i in range(1,11):
+  s = no * i
+  print(s)

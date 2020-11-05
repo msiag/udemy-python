@@ -1,0 +1,4 @@
+def SI(p,r,t):
+ sint = (p*r*t)/100
+ print(sint)
+SI(1000,39,10)

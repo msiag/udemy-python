@@ -1,0 +1,8 @@
+no = int(input("enter the no"))
+
+if no%2==0:
+   even = (no*(no+1))/2
+   print(even)
+else:
+   odd = (no*(no+1))/2
+   print(odd)

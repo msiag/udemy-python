@@ -1,0 +1,12 @@
+def prime(num):
+ if num > 1:
+   if num %2 ==0:
+     print("not prime")
+   elif num %3 ==0:
+      print("not prime")
+   else:
+     print("prime")
+ else:
+    print("enter no grater then 1")
+
+prime(112)

@@ -1,0 +1,12 @@
+def sumofnum(*num):
+   sum = 0
+   for n in num:
+     sum = sum+n
+   return sum
+
+s= sumofnum(1)
+s1= sumofnum(2,5)
+s3=sumofnum(8,9,2)
+print(s)
+print(s1)
+print(s3)

@@ -1,0 +1,5 @@
+def C_to_F(C):
+ F = ((9/5)*C)+32
+ print(F)
+
+C_to_F(int(input("enter the value of c")))

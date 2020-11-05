@@ -1,0 +1,6 @@
+n = int(input("input no"))
+
+for i in range(0,5):
+  i = i +1
+  list = n*i
+  print (list)

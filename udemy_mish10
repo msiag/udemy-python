@@ -1,0 +1,6 @@
+no = int(input("enter the no"))
+rev_num = 0
+while no > 0:
+  rev_num = rev_num * 10 + no % 10
+  no = no // 10
+print (rev_num)

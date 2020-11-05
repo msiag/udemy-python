@@ -1,0 +1,13 @@
+def alphanumeric(str):
+
+ for i in range(len(str)):
+  if str[i].isalnum() == True:
+   an = str[i]
+  else:
+   nc = str[i]
+ percentage = (len(an)/len(str))*100
+ str1= str.swapcase()
+ print(str1)
+ print(percentage)
+
+alphanumeric(str = input("enter the no"))
